@@ -1,0 +1,45 @@
+body {
+    background: linear-gradient(to right, rgb(116, 156, 117), rgb(109, 162, 111));
+}
+
+#heading {
+    text-align: center;
+}
+
+.navbar ul {
+    list-style: none;
+    background-color: rgb(171, 184, 110);
+    overflow: hidden;
+    margin: 0px;
+    text-align: center;
+}
+
+.navbar li {
+    display: inline-block;
+    margin-right: 20px;
+    font-size: 17px;
+}
+
+.navbar a {
+    text-decoration: none;
+    color:aliceblue;
+    padding: 15px;
+    float: left;
+}
+
+.navbar a:hover {
+    background-color: rgb(195, 206, 137);
+}
+
+#make_post {
+    border-radius: 100px;
+    font-size: 13px;
+    padding: 15px;
+    background-color: rgb(171, 184, 110);
+    float: left;
+    color:aliceblue;
+}
+
+#make_post:hover {
+    background-color: rgb(195, 206, 137);
+}
